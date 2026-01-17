@@ -17,7 +17,7 @@ const Footer: React.FC = () => {
             <ul className="space-y-3 text-white/90">
               <li><a href="https://rdb.rw/" className="hover:text-white hover:translate-x-1 transition-all inline-block">RDB</a></li>
               <li><a href="https://www.mifotra.gov.rw/" className="hover:text-white hover:translate-x-1 transition-all inline-block">MIFOTRA</a></li>
-              <li><Link to="/signin" className="hover:text-white hover:translate-x-1 transition-all inline-block">Admin</Link></li>
+              <li><Link to="/signin" className="hover:text-white hover:translate-x-1 transition-all inline-block">Right Pool Portal</Link></li>
             </ul>
           </div>
 
