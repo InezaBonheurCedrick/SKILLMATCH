@@ -30,6 +30,23 @@ if (process.env.NODE_ENV === 'development') {
 }
 app.use(express.json());
 
+// Root endpoint
+app.get('/', (req, res) => {
+  res.status(200).json({
+    status: 'success',
+    message: 'SkillMatch API is running!',
+    version: '1.0.0',
+    endpoints: {
+      health: '/health',
+      auth: '/api/auth',
+      opportunities: '/api/opportunities',
+      applications: '/api/applications',
+      dashboard: '/api/dashboard'
+    },
+    timestamp: new Date().toISOString()
+  });
+});
+
 // Health check endpoint for Render
 app.get('/health', (req, res) => {
   res.status(200).json({ 
