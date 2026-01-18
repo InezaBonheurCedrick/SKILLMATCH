@@ -16,8 +16,25 @@ const app = express();
 app.use(helmet());
 
 // CORS configuration - allow requests from frontend
+const allowedOrigins = [
+  'https://skillmatch-es9d.vercel.app',
+  'http://localhost:5173',
+  'http://localhost:3000',
+  process.env.FRONTEND_URL,
+].filter(Boolean); // Remove any undefined values
+
 const corsOptions = {
-  origin: process.env.FRONTEND_URL || '*', // Allow all origins in development, set FRONTEND_URL in production
+  origin: (origin: string | undefined, callback: (err: Error | null, allow?: boolean) => void) => {
+    // Allow requests with no origin (like mobile apps or curl requests)
+    if (!origin) return callback(null, true);
+    
+    // Check if origin is in allowed list
+    if (allowedOrigins.includes(origin) || process.env.NODE_ENV === 'development') {
+      callback(null, true);
+    } else {
+      callback(new Error('Not allowed by CORS'));
+    }
+  },
   credentials: true,
   methods: ['GET', 'POST', 'PATCH', 'DELETE', 'PUT', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization'],
