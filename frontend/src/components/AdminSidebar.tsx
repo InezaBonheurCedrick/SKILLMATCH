@@ -82,7 +82,7 @@ const AdminSidebar: React.FC<SidebarProps> = ({ role = "Admin" }) => {
         })}
       </nav>
 
-      <div className="p-4 border-t border-slate-800 space-y-1">
+      <div className="p-4 border-t border-slate-800 space-y-1 cursor-pointer">
         <button
           type="button"
           onClick={handleSignOut}
