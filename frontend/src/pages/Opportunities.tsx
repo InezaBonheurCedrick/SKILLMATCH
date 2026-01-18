@@ -1,6 +1,6 @@
 import React, { useState, useMemo, useEffect } from 'react';
 import { Search, MapPin, Briefcase, DollarSign, Clock, ChevronLeft, ChevronRight, ChevronDown, Filter, TrendingUp, GraduationCap, FileText, Globe, CalendarX, Loader2 } from 'lucide-react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { opportunitiesAPI } from '../services/api';
 
 interface BackendOpportunity {
@@ -22,6 +22,7 @@ interface BackendOpportunity {
 }
 
 const Opportunities: React.FC = () => {
+  const navigate = useNavigate();
   const [opportunities, setOpportunities] = useState<BackendOpportunity[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
@@ -146,17 +147,6 @@ const Opportunities: React.FC = () => {
     }
     
     return pages;
-  };
-
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  const getLogoInitials = (company: string, logo?: string) => {
-    if (logo) return logo;
-    return company
-      .split(' ')
-      .map(word => word[0])
-      .join('')
-      .toUpperCase()
-      .slice(0, 2);
   };
 
   const toggleOppType = (type: string) => {
@@ -408,10 +398,10 @@ const Opportunities: React.FC = () => {
               <div className="space-y-4">
                 {paginatedJobs.length > 0 ? (
                   paginatedJobs.map((job) => (
-                    <Link
+                    <div
                       key={job._id}
-                      to={`/opportunities/${job._id}`}
-                      className={`group relative bg-white rounded-xl p-5 border transition-all duration-200 hover:shadow-lg block ${
+                      onClick={() => navigate(`/opportunities/${job._id}`)}
+                      className={`group relative bg-white rounded-xl p-5 border transition-all duration-200 hover:shadow-lg cursor-pointer ${
                         statusFilter === 'Expired'
                           ? 'border-red-100 bg-red-50/10 opacity-75 grayscale-[0.5]'
                           : job.isFeatured 
@@ -504,7 +494,7 @@ const Opportunities: React.FC = () => {
                         )}
                       </div>
                     </div>
-                  </Link>
+                  </div>
                 ))
                 ) : (
                   <div className="text-center py-16 bg-white rounded-xl border border-dashed border-gray-300">
