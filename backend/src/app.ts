@@ -17,7 +17,7 @@ app.use(helmet());
 
 // CORS configuration - allow requests from frontend
 const allowedOrigins = [
-  'https://skillmatch-es9d.vercel.app',
+  'https://rightpool.vercel.app',
   'http://localhost:5173',
   'http://localhost:3000',
   process.env.FRONTEND_URL,
