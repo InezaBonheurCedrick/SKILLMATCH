@@ -39,7 +39,7 @@ const Hero: React.FC = () => {
         <div className="bg-black/50 border border-white/20 p-10 md:p-14 text-center shadow-2xl">
           
           <h1 className="text-2xl md:text-2xl font-light text-white mb-6 tracking-wide uppercase">
-            Find the <span className="font-bold">Right Pool</span> of Talent
+            Find the <span className="font-bold">Right Pool</span> of Talent.
           </h1>
           
           <p className="text-white/90 text-lg md:text-xl font-light leading-relaxed mb-10">
