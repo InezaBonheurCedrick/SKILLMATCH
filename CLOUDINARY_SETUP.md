@@ -21,7 +21,7 @@ This guide will help you set up Cloudinary for resume uploads in the SkillMatch 
 2. Scroll down to **Upload presets** section
 3. Click **Add upload preset**
 4. Configure the preset:
-   - **Preset name**: `skillmatch_resumes` (or any name you prefer)
+   - **Preset name**: `skillmatch_res` (or any name you prefer)
    - **Signing mode**: Select **Unsigned** (this allows direct uploads from frontend)
    - **Folder**: `resumes` (optional, but recommended for organization)
    - **Resource type**: `Auto` (to handle PDF, DOC, DOCX files)
