@@ -30,7 +30,7 @@ const WhyUs: React.FC = () => {
             <img 
               src="https://res.cloudinary.com/dtcf04lfg/image/upload/v1768920289/DSC_4955_-_Copy_1_szx4wp.jpg" 
               alt="Professional team" 
-              className="w-full h-[400px] object-cover rounded-sm shadow-lg"
+              className="w-full h-[600px] object-cover rounded-sm shadow-lg"
             />
             
             <div className="absolute -bottom-15 -left-5 md:-left-40 bg-[#205e87] text-white p-8 md:p-12 w-[300px] md:w-[350px] shadow-2xl z-10">
