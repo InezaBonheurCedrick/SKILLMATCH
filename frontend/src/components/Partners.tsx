@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 
 const partnerImages = [
-  "",
-  ""
+  "https://res.cloudinary.com/dtcf04lfg/image/upload/v1768658816/Frame_21_3_xxjwew.webp",
+  "https://res.cloudinary.com/dtcf04lfg/image/upload/v1768658816/download_bo3ypf.png"
 ];
 
 const Partners: React.FC = () => {
@@ -19,7 +19,7 @@ const Partners: React.FC = () => {
     <section className="py-16 bg-white border-t border-gray-50">
       <div className="max-w-7xl mx-auto px-6">
         <h2 className="text-center text-[#2b6cb0] text-2xl md:text-3xl font-bold mb-12">
-          ""
+          
         </h2>
 
         <div className="relative h-24 md:h-32 flex justify-center items-center overflow-hidden">
