@@ -28,7 +28,7 @@ const WhyUs: React.FC = () => {
         <div className="relative mt-20 flex justify-center">
           <div className="relative w-full max-w-2xl">
             <img 
-              src="https://res.cloudinary.com/dtcf04lfg/image/upload/v1768658825/team_voz0d0.webp" 
+              src="https://res.cloudinary.com/dtcf04lfg/image/upload/v1768919984/DSC_4955_x2wppi.jpg" 
               alt="Professional team" 
               className="w-full h-[400px] object-cover rounded-sm shadow-lg"
             />
