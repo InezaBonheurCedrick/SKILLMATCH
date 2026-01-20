@@ -4,25 +4,25 @@ const Benefits: React.FC = () => {
   const stats = [
     {
       id: 1,
-      number: "00",
+      number: "",
       label: "Full recruitment",
       image: "https://hrms.rw/web/image/1086-4a4bd68c/Employee%20Outsourcing.webp"
     },
     {
       id: 2,
-      number: "000",
+      number: "",
       label: "Shortlisting",
       image: "https://hrms.rw/web/image/1080-1264f544/Full%20recruitment.webp"
     },
     {
       id: 3,
-      number: "400k+",
+      number: "",
       label: "Database profiles",
       image: "https://hrms.rw/web/image/1084-729648d0/Job%20Fair%20organization.webp"
     },
     {
       id: 4,
-      number: "245+",
+      number: "",
       label: "Outsourced staff",
       image: "https://hrms.rw/web/image/1085-70e94ca3/Temporary%20Staffing.webp"
     }
