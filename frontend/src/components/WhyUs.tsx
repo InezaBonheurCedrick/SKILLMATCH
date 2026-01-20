@@ -8,7 +8,7 @@ const WhyUs: React.FC = () => {
           <div className="md:w-1/3">
             <h2 className="text-[#2979ad] font-bold text-xl mb-4">Why choose us</h2>
             <h3 className="text-2xl md:text-3xl font-bold text-slate-900 leading-tight">
-              Bringing the Best Talent to Your Business
+              Bringing the Best Talent and Trusted Partners to Your Organisation
             </h3>  
           </div>
           
