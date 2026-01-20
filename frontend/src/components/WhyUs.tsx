@@ -14,13 +14,13 @@ const WhyUs: React.FC = () => {
           
           <div className="md:w-3/5 space-y-6">
             <p className="text-slate-600 leading-relaxed">
-              We are the Leading HR service provider and one-stop center for all Career services plus advice in Rwanda.
+              We understand African markets, cultures, and talent landscapes, enabling accurate hiring and strong, sustainable partnerships.
             </p>
             <p className="text-slate-600 leading-relaxed">
-              We have developed efficient and user-friendly web-based applications for quick payroll runtime and accurate computation.
+              We use targeted sourcing, digital marketing, and relationship-driven outreach to deliver fast, high-quality results.
             </p>
             <p className="text-slate-600 leading-relaxed">
-              We work closely with Management to develop the right requirements, advise on appropriate compensation, and onboard the best Talent.
+              From talent recruitment to partnership facilitation, we manage the entire process with professionalism, transparency, and impact.
             </p>
           </div>
         </div>

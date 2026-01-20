@@ -16,7 +16,7 @@ const MissionBanner: React.FC = () => {
           </h2>
           <div className="h-[1px] w-24 bg-white/30 mx-auto my-4" />
           <h2 className="text-white text-2xl md:text-3xl font-semibold tracking-wide leading-tight">
-            While We Focus on Your HR.
+            While We Focus on Your Recruitment & Partnership Sourcing.
           </h2>
         </div>
       </div>
