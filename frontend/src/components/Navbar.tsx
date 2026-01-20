@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-const logo = "https://res.cloudinary.com/dc6iwekzx/image/upload/v1768553178/Image_fx__68_-removebg-preview_qs5ybx.png"
+const logo = "https://res.cloudinary.com/dtcf04lfg/image/upload/v1768898560/Image_fx_69_vshj2r.jpg"
 
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
