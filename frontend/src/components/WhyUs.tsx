@@ -35,7 +35,7 @@ const WhyUs: React.FC = () => {
             
             <div className="absolute -bottom-15 -left-5 md:-left-40 bg-[#205e87] text-white p-8 md:p-12 w-[300px] md:w-[350px] shadow-2xl z-10">
               <p className="text-lg md:text-2xl font-light leading-snug text-center">
-                With our specialists, and experts at your disposal, you will face complex HR issues with confidence
+                With our specialists and experts at your disposal, you can tackle complex recruitment and partnership challenges with confidence
               </p>
             </div>
           </div>
