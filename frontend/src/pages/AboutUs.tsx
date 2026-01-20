@@ -31,21 +31,21 @@ const AboutUs: React.FC = () => {
 
         <div className="max-w-5xl mx-auto space-y-8 text-slate-700 leading-relaxed text-sm md:text-base">
           <p className="text-lg">
-            <strong className="text-[#2b6cb0]">RightPool</strong> is a Rwandan private company created in 2024. We are the leading IT-based Human Resource Agency in the country. Our main platform 
+            <strong className="text-[#2b6cb0]">RightPool</strong> RightPool is a Rwandan private company founded in 2026, specializing in talent recruitment and strategic partnership sourcing across Africa and the world. Through our flagship platform 
             <a href="https://www.jobinrwanda.com" className="text-[#2b6cb0] font-semibold hover:underline px-1">www.rightpool.com</a> 
-            has facilitated the creation of our recruitment database, which now contains over 420,000 profiles from various sectors and levels.
+            .
           </p>
 
           <p>
-            We are keen adopters and implementers of innovative HR and Recruitment procedures. We believe in deploying timely and user-friendly solutions to solve the current market HR and Recruitment challenges faced by our clients and candidates.
+            We are innovators in Partnership Sourcing and recruitment, implementing modern, technology-driven solutions that are timely, efficient, and user-friendly. Our goal is to address the evolving talent and partnership needs of organizations and candidates worldwide.
           </p>
 
           <p>
-            We have created an effective technological solution to ensure timely and high-quality deliverables. As a result, lead times are reduced, candidates are more motivated, retention rates are higher, and your organization's potential is unlocked!
+            With our advanced technological solutions, we ensure high-quality deliverables with reduced lead times, more motivated candidates, improved retention rates, and maximized organizational potential!
           </p>
 
           <p>
-            On top of our platform and systems, we have a strong reputation among HR Specialists, Professionals, and Job Seekers in Rwanda, East Africa, and around the world.
+            RightPool has earned a trusted reputation among Partnership sourcing specialists, professionals, and job seekers in Rwanda, across East Africa, and internationally. We are committed to connecting organizations with the right talent and strategic partners to accelerate growth and success globally.
           </p>
         </div>
       </main>
