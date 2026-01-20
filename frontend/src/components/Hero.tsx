@@ -2,9 +2,9 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 const images = [
-  "https://res.cloudinary.com/dtcf04lfg/image/upload/v1768658816/business_black_gfgtd9.jpg", 
-  "https://res.cloudinary.com/dtcf04lfg/image/upload/v1768658816/employment_black_hwpbg8.jpg", 
-  "https://res.cloudinary.com/dtcf04lfg/image/upload/v1768658817/hr2_hpfjui.webp"
+  "https://res.cloudinary.com/dtcf04lfg/image/upload/v1768919505/pexels-pnw-prod-8276364_ic73ay.jpg", 
+  "https://res.cloudinary.com/dtcf04lfg/image/upload/v1768919504/pexels-divinetechygirl-1181355_psxpub.jpg", 
+  "https://res.cloudinary.com/dtcf04lfg/image/upload/v1768919505/pexels-pham-ngoc-anh-170983008-28124694_kwskdv.jpg"
 ];
 
 const Hero: React.FC = () => {
