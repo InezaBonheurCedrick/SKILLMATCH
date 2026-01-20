@@ -10,7 +10,7 @@ const Benefits: React.FC = () => {
     },
     {
       id: 2,
-      number: "250+",
+      number: "",
       label: "Shortlisting",
       image: "https://hrms.rw/web/image/1080-1264f544/Full%20recruitment.webp"
     },
