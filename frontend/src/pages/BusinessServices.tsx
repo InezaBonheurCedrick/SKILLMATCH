@@ -12,12 +12,12 @@ const BusinessServices: React.FC = () => {
     {
       title: "CVs on Request",
       tagline: "Instant access to a pool of qualified professionals tailored to your needs.",
-      description: "Gain access to our extensive database of over 420,000 profiles. We provide tailored CV collections that match your specific job requirements immediately, allowing you to move straight to the interview stage with pre-vetted talent.",
+      description: "Gain access to our extensive database. We provide tailored CV collections that match your specific job requirements immediately, allowing you to move straight to the interview stage with pre-vetted talent.",
       image: "https://res.cloudinary.com/dtcf04lfg/image/upload/v1768660425/team_2_g1yj9n.webp"
     },
     {
       title: "Full Recruitment",
-      tagline: "End-to-end talent acquisition process managed by our HR experts.",
+      tagline: "End-to-end talent acquisition and partnership sourcing process managed by our experts.",
       description: "From job profiling to final selection, we manage the entire recruitment lifecycle. Our experts handle sourcing, technical assessments, and cultural fit interviews to ensure you get top-tier talent that aligns with your organization's goals.",
       image: "https://res.cloudinary.com/dtcf04lfg/image/upload/v1768660424/black_happy_pexjw7.jpg"
     },
@@ -29,13 +29,13 @@ const BusinessServices: React.FC = () => {
     },
     {
       title: "Employee Outsourcing",
-      tagline: "Simplify HR management and focus on your core objectives.",
+      tagline: "Simplify Recruitment management and focus on your core objectives.",
       description: "We handle contracts, compliance, and HR administration for outsourced staff. This allows your organization to remain agile and focused on its core mission while we take care of the complex legal and administrative responsibilities of your workforce.",
       image: "https://res.cloudinary.com/dtcf04lfg/image/upload/v1768658825/team_voz0d0.webp"
     },
     {
-      title: "HR Advisory Services",
-      tagline: "Strategic HR guidance to optimize your organizational performance.",
+      title: "Recruitment and Partnership sourcing Advisory Services",
+      tagline: "Strategic Recruitment and partnership sourcing guidance to optimize your organizational performance.",
       description: "Our consultants provide strategic advice on labor laws, organizational design, and performance management systems. We help you build a more effective, compliant, and motivated HR department that drives business growth.",
       image: "https://res.cloudinary.com/dtcf04lfg/image/upload/v1768658817/hr2_hpfjui.webp"
     },
@@ -53,7 +53,7 @@ const BusinessServices: React.FC = () => {
     },
     {
       title: "Labour Market Survey",
-      tagline: "Data-driven insights for competitive and strategic HR planning.",
+      tagline: "Data-driven insights for competitive and strategic Recruitement and Trusted partnership sourcing planning.",
       description: "Stay ahead with our comprehensive surveys on salary benchmarks, benefits, and market trends in Rwanda. These insights help you make informed decisions for talent retention and recruitment strategies.",
       image: "https://res.cloudinary.com/dtcf04lfg/image/upload/v1768660424/hr00_l5nb18.webp"
     }
