@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://rightpoolstaff.com/sitemap.xml
+Sitemap: https://www.rightpoolstaff.com/sitemap.xml
