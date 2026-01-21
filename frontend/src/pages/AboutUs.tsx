@@ -32,7 +32,7 @@ const AboutUs: React.FC = () => {
         <div className="max-w-5xl mx-auto space-y-8 text-slate-700 leading-relaxed text-sm md:text-base">
           <p className="text-lg">
             <strong className="text-[#2b6cb0]">RightPool</strong> RightPool is a Rwandan private company founded in 2026, specializing in talent recruitment and strategic partnership sourcing across Africa and the world. Through our flagship platform 
-            <a href="https://www.jobinrwanda.com" className="text-[#2b6cb0] font-semibold hover:underline px-1">www.rightpool.com</a> 
+            <a href="https://www.rightpoolstaff.com/" className="text-[#2b6cb0] font-semibold hover:underline px-1">www.rightpoolstaff.com</a> 
             .
           </p>
 
