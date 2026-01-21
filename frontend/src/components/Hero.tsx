@@ -44,7 +44,7 @@ const Hero: React.FC = () => {
           
           <p className="text-white/90 text-lg md:text-xl font-light leading-relaxed mb-10">
             Connecting exceptional candidates & Strategic partners with world-class opportunities. 
-            Whether you're hiring or seeking strategic partners in Africa or world wide, we make the match seamless.
+            Whether you're hiring or seeking strategic partners in Africa or world-wide, we make the match seamless.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
