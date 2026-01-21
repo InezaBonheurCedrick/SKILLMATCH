@@ -6,7 +6,7 @@ const BusinessServices: React.FC = () => {
     {
       title: "Shortlisting",
       tagline: "Simplify your screening process after advertising on our portal.",
-      description: "We publish on your behalf with your company description or under our company for recruitment confidentiality on our job portal plus social media platforms (LinkedIn, Twitter, Facebook, and Instagram) for 7 to 15 days. We extract all received applications from our portal at the deadline and begin the screening process, where we shortlist the best 10 to 15 candidates based on the criteria within 2 to 3 working days.",
+      description: "We publish on your behalf with your company description or under our company for recruitment and partnership sourcing confidentiality on our job portal plus social media platforms (LinkedIn, Twitter, Facebook, and Instagram) for 7 to 15 days. We extract all received applications from our portal at the deadline and begin the screening process, where we shortlist the best 10 to 15 candidates based on the criteria within 2 to 3 working days.",
       image: "https://res.cloudinary.com/dtcf04lfg/image/upload/v1768658816/business_black_gfgtd9.jpg"
     },
     {
