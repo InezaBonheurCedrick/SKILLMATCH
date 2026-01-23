@@ -23,7 +23,7 @@ const Benefits: React.FC = () => {
     {
       id: 4,
       number: "",
-      label: "Outsourced staff",
+      label: "partnership sourcing",
       image: "https://hrms.rw/web/image/1085-70e94ca3/Temporary%20Staffing.webp"
     }
   ];
