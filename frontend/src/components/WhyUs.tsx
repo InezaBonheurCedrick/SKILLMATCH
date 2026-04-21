@@ -8,19 +8,19 @@ const WhyUs: React.FC = () => {
           <div className="md:w-1/3">
             <h2 className="text-[#2979ad] font-bold text-xl mb-4">Why choose us</h2>
             <h3 className="text-2xl md:text-3xl font-bold text-slate-900 leading-tight">
-              Bringing the Best Talent and Trusted Partners to Your Organisation
+              Develop your Business in Africa and bring Trusted Partners to Your Organisation
             </h3>  
           </div>
           
           <div className="md:w-3/5 space-y-6">
             <p className="text-slate-600 leading-relaxed">
-              We understand African markets, cultures, and talent landscapes, enabling accurate hiring and strong, sustainable partnerships.
+              We understand African markets, cultures, and business landscapes, enabling accurate expanding and strong, sustainable partnerships.
             </p>
             <p className="text-slate-600 leading-relaxed">
-              We use targeted sourcing, digital marketing, and relationship-driven outreach to deliver fast, high-quality results.
+              We use targeted market reasearch, digital marketing, and relationship-driven outreach to deliver fast, high-quality results.
             </p>
             <p className="text-slate-600 leading-relaxed">
-              From talent recruitment to partnership facilitation, we manage the entire process with professionalism, transparency, and impact.
+              From business development to partnership facilitation, we manage the entire process with professionalism, transparency, and impact.
             </p>
           </div>
         </div>
@@ -35,7 +35,7 @@ const WhyUs: React.FC = () => {
             
             <div className="absolute -bottom-15 -left-5 md:-left-40 bg-[#205e87] text-white p-8 md:p-12 w-[300px] md:w-[350px] shadow-2xl z-10">
               <p className="text-lg md:text-2xl font-light leading-snug text-center">
-                With our specialists and experts at your disposal, you can tackle complex recruitment and partnership challenges with confidence
+                With our specialists and experts at your disposal, you can tackle complex business development and partnership challenges with confidence
               </p>
             </div>
           </div>

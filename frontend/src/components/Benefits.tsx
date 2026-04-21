@@ -37,13 +37,13 @@ const Benefits: React.FC = () => {
         
         <div className="space-y-6 text-slate-600 text-lg leading-relaxed max-w-md">
           <p>
-            Simplifying your screening process after advertising on our portal.
+            Simplifying your business Development processes.
           </p>
           <p>
-            Providing you with an efficient and fair recruitment process and ensuring smooth onboarding processes.
+            We support you in acquiring all the neccessary documents in the business development process.
           </p>
           <p>
-            Sourcing for you the best talent on the market from our database and beyond.
+            Assistance in market reseach to understand its trends.
           </p>
         </div>
 
