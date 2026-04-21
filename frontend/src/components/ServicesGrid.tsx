@@ -8,14 +8,14 @@ interface Service {
 
 const ServicesGrid: React.FC = () => {
   const services: Service[] = [
-    { id: 1, title: "Shortlistings", image: "https://res.cloudinary.com/dtcf04lfg/image/upload/v1768658825/Shortlistings_rohmwb.webp" },
-    { id: 2, title: "CVs on Request", image: "https://res.cloudinary.com/dtcf04lfg/image/upload/v1768658815/CVs_on_Request_h31yyo.webp" },
-    { id: 3, title: "Full recruitment", image: "https://res.cloudinary.com/dtcf04lfg/image/upload/v1768658816/Full_recruitment_ret9ws.webp" },
+    { id: 1, title: "Business Development", image: "https://res.cloudinary.com/dtcf04lfg/image/upload/v1768658825/Shortlistings_rohmwb.webp" },
+    { id: 2, title: "Strategic Outreach", image: "https://res.cloudinary.com/dtcf04lfg/image/upload/v1768658815/CVs_on_Request_h31yyo.webp" },
+    { id: 3, title: "Market Research", image: "https://res.cloudinary.com/dtcf04lfg/image/upload/v1768658816/Full_recruitment_ret9ws.webp" },
     { id: 4, title: "Temporary Staffing", image: "https://res.cloudinary.com/dtcf04lfg/image/upload/v1768658825/Temporary_Staffing_qobdzu.webp" },
     { id: 5, title: "partnership sourcing", image: "https://res.cloudinary.com/dtcf04lfg/image/upload/v1768658816/Employee_Outsourcing_p2gcqx.webp" },
     { id: 6, title: "HR Advisory Services", image: "https://res.cloudinary.com/dtcf04lfg/image/upload/v1768658817/HR_Advisory_Services_d6bjt9.webp" },
-    { id: 7, title: "Payroll Management", image: "https://cdn-icons-png.flaticon.com/512/2660/2660505.png" },
-    { id: 8, title: "Job Fair Organization", image: "https://res.cloudinary.com/dtcf04lfg/image/upload/v1768658817/Job_Fair_organization_kdhl9e.webp" },
+    { id: 7, title: "Financial Advisory", image: "https://cdn-icons-png.flaticon.com/512/2660/2660505.png" },
+    { id: 8, title: "Logitic services", image: "https://res.cloudinary.com/dtcf04lfg/image/upload/v1768658817/Job_Fair_organization_kdhl9e.webp" },
     { id: 9, title: "Labour Market Survey", image: "https://res.cloudinary.com/dtcf04lfg/image/upload/v1768658817/Labour_Market_Survey_wpzdwp.webp" },
   ];
 
