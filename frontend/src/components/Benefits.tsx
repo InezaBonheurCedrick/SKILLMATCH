@@ -5,25 +5,25 @@ const Benefits: React.FC = () => {
     {
       id: 1,
       number: "",
-      label: "Full recruitment",
+      label: "Business Development",
       image: "https://hrms.rw/web/image/1086-4a4bd68c/Employee%20Outsourcing.webp"
     },
     {
       id: 2,
       number: "",
-      label: "Shortlisting",
+      label: "Partnerships",
       image: "https://hrms.rw/web/image/1080-1264f544/Full%20recruitment.webp"
     },
     {
       id: 3,
       number: "",
-      label: "Database profiles",
+      label: "Business Registration",
       image: "https://hrms.rw/web/image/1084-729648d0/Job%20Fair%20organization.webp"
     },
     {
       id: 4,
       number: "",
-      label: "partnership sourcing",
+      label: "Market Research",
       image: "https://hrms.rw/web/image/1085-70e94ca3/Temporary%20Staffing.webp"
     }
   ];
