@@ -5,14 +5,14 @@ const BusinessServices: React.FC = () => {
   const services = [
     {
       title: "Business develpment",
-      tagline: "Simplify your screening process after advertising on our portal.",
-      description: "We publish on your behalf with your company description or under our company for recruitment and partnership sourcing confidentiality on our job portal plus social media platforms (LinkedIn, Twitter, Facebook, and Instagram) for 7 to 15 days. We extract all received applications from our portal at the deadline and begin the screening process, where we shortlist the best 10 to 15 candidates based on the criteria within 2 to 3 working days.",
+      tagline: "Simplify your Business Development process after Deciding to expand your business.",
+      description: "We support your business development and partnership growth by actively working alongside you to establish and expand your operations. Whether operating under your company name or representing you confidentially through our network, we postion your business for strategic growth and market entry our support goes beyong promotion, we assist with business registration, compliance, and administrative setup, ensuring your company is properly established and aligned with local requirements. We leverage our networks and digital platforms, including LinkedIn, Twitter, Facebook, and Instahram, to identify and connect you with relevant partners, clients and opportunities. from initial setup to ongoing development, we provide hands-on support to streghtne your presence, build strategic partnerships and drive sustainable growth. ",
       image: "https://res.cloudinary.com/dtcf04lfg/image/upload/v1768658816/business_black_gfgtd9.jpg"
     },
     {
       title: "Partnerships",
       tagline: "Instant access to a pool of qualified professionals tailored to your needs.",
-      description: "Gain access to our extensive database. We provide tailored CV collections that match your specific job requirements immediately, allowing you to move straight to the interview stage with pre-vetted talent.",
+      description: "Gain access to our business database. We provide tailored CV collections that match your specific job requirements immediately, allowing you to move straight to the interview stage with pre-vetted talent.",
       image: "https://res.cloudinary.com/dtcf04lfg/image/upload/v1768660425/team_2_g1yj9n.webp"
     },
     {
