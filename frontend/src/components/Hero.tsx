@@ -43,7 +43,7 @@ const Hero: React.FC = () => {
           </h1>
           
           <p className="text-white/90 text-lg md:text-xl font-light leading-relaxed mb-10">
-            Developing businesses & Strategic partnerships with world-class experience. 
+            Developing businesses & Strategic partnerships with a world-class experience. 
             Whether you're expanding your business or seeking strategic partnerships in Africa we make the process seamless.
           </p>
           
