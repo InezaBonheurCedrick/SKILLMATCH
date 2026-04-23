@@ -44,7 +44,7 @@ const CandidateServices: React.FC = () => {
 
           <div className="w-full md:w-1/2 md:absolute md:right-0 bg-white p-8 md:p-10 md:bottom-[-80px] shadow-xl border border-gray-100 rounded-lg z-10">
             <p className="text-slate-600 text-sm md:text-base leading-relaxed mb-6">
-              Whether you're on the lookout for the perfect job that aligns with your career goals, seeking an internship that propels you into the world of software development, in need of a residential house, or considering a stress-free relocation to the country of a thousand hills and a million smiles, we've got you covered!
+              Whether you're on the lookout for the best location fo your business expansion in africa that aligns with your business goals, seeking partnerships that propels you into the world of business expansion, we've got you covered!
             </p>
             <p className="font-bold text-slate-800 text-sm">
               Click on the service photo to get more information regarding it.
