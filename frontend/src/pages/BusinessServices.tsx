@@ -11,26 +11,26 @@ const BusinessServices: React.FC = () => {
     },
     {
       title: "Partnerships",
-      tagline: "Instant access to a pool of qualified professionals tailored to your needs.",
-      description: "Gain access to our business database. We provide tailored CV collections that match your specific job requirements immediately, allowing you to move straight to the interview stage with pre-vetted talent.",
+      tagline: "Instant access to a pool of partners tailored to your business.",
+      description: "Gain access to our partners database. We provide tailored information that match your business organisation.",
       image: "https://res.cloudinary.com/dtcf04lfg/image/upload/v1768660425/team_2_g1yj9n.webp"
     },
     {
       title: "Market Research",
-      tagline: "End-to-end talent acquisition and partnership sourcing process managed by our experts.",
-      description: "From job profiling to final selection, we manage the entire recruitment lifecycle. Our experts handle sourcing, technical assessments, and cultural fit interviews to ensure you get top-tier talent that aligns with your organization's goals.",
+      tagline: "Data-driven insights to guide your expansion and partnership strategy.",
+      description: "We deliver in-depth market intelligence, competitor analysis, and industry insights to help you identify opportunities, understand target markets, and make informed business and partnership decisions.",
       image: "https://res.cloudinary.com/dtcf04lfg/image/upload/v1768660424/black_happy_pexjw7.jpg"
     },
     {
       title: "Logistic services",
-      tagline: "Flexible workforce solutions for your short-term staffing needs.",
-      description: "Whether you need coverage for parental leave, special projects, or seasonal peaks, our temporary staffing solutions provide you with pre-screened professionals ready to contribute immediately to your operational success.",
+      tagline: "Seamless operational support for your business activities and partnerships.",
+      description: "We manage logistics, coordination, and operational planning to ensure smooth execution of your business activities, events, and partnership engagements across different markets.",
       image: "https://res.cloudinary.com/dtcf04lfg/image/upload/v1768658825/recruitment_nriehd.webp"
     },
     {
       title: "Digital marketing",
-      tagline: "Simplify Recruitment management and focus on your core objectives.",
-      description: "We handle contracts, compliance, and HR administration for outsourced staff. This allows your organization to remain agile and focused on its core mission while we take care of the complex legal and administrative responsibilities of your workforce.",
+      tagline: "Expand your reach and visibility in target markets.",
+      description: "Our digital marketing strategies help position your brand, promote your services, and attract the right partners through targeted campaigns, content marketing, and social media engagement.",
       image: "https://res.cloudinary.com/dtcf04lfg/image/upload/v1768658825/team_voz0d0.webp"
     },
     {
@@ -41,20 +41,20 @@ const BusinessServices: React.FC = () => {
     },
     {
       title: "Strategic Outreach",
-      tagline: "Accurate, timely, and compliant payroll solutions for your business.",
-      description: "Utilizing our advanced web-based applications, we ensure accurate computation and timely runtime. We manage all statutory deductions and local tax compliance, reducing your administrative burden and ensuring employee satisfaction.",
+      tagline: "Connect with the right stakeholders and decision-makers.",
+      description: "We identify, approach, and engage key partners, clients, and stakeholders on your behalf, building strong relationships that open doors to new opportunities.",
       image: "https://res.cloudinary.com/dtcf04lfg/image/upload/v1768660424/hr_w0vk2w.webp"
     },
     {
       title: "Admnistration Assistance",
-      tagline: "Connect with mass talent through well-organized recruitment events.",
-      description: "We organize large-scale recruitment events that allow you to meet hundreds of potential candidates in a single day. This is perfect for mass hiring needs or building significant brand awareness within the local labor market.",
+      tagline: "Efficient support to streamline your business operations.",
+      description: "We handle documentation, coordination, and administrative processes to ensure your business activities and partnerships run smoothly and efficiently.",
       image: "https://res.cloudinary.com/dtcf04lfg/image/upload/v1768660425/job_fair_tvhgf8.jpg"
     },
     {
       title: "Labour Market Survey",
-      tagline: "Data-driven insights for competitive and strategic Recruitement and Trusted partnership sourcing planning.",
-      description: "Stay ahead with our comprehensive surveys on salary benchmarks, benefits, and market trends in Rwanda. These insights help you make informed decisions for talent retention and recruitment strategies.",
+      tagline: "Insights to support strategic business and partnership decisions.",
+      description: "Our surveys provide valuable data on market trends, workforce dynamics, and economic conditions to support your expansion plans and partnership strategies.",
       image: "https://res.cloudinary.com/dtcf04lfg/image/upload/v1768660424/hr00_l5nb18.webp"
     }
   ];
