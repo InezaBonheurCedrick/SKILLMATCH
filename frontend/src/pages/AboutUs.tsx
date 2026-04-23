@@ -37,15 +37,15 @@ const AboutUs: React.FC = () => {
           </p>
 
           <p>
-            We are innovators in business development and recruitment, implementing modern, technology-driven solutions that are timely, efficient, and user-friendly. Our goal is to address the evolving talent and partnership needs of organizations and candidates worldwide.
+            We are innovators in business development and partnerships, implementing modern, technology-driven solutions that are timely, efficient, and user-friendly. Our goal is to address the evolving business developement and partnership needs of organizations and business worldwide.
           </p>
 
           <p>
-            With our advanced technological solutions, we ensure high-quality deliverables with reduced lead times, more motivated candidates, improved retention rates, and maximized organizational potential!
+            With our advanced technological solutions, we ensure high-quality deliverables with reduced time taken, more motivated business people, improved retention rates, and maximized organizational potential!
           </p>
 
           <p>
-            RightPool has earned a trusted reputation among Partnership sourcing specialists, professionals, and job seekers in Rwanda, across East Africa, and internationally. We are committed to connecting organizations with the right talent and strategic partners to accelerate growth and success globally.
+            RightPool has earned a trusted reputation among Businesses, specialists, professionals, and enterpreneurs in Rwanda, across East Africa, and internationally. We are committed to connecting organizations with the right partners and opportunities to accelerate growth and success globally.
           </p>
         </div>
       </main>
