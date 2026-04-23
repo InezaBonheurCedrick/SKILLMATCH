@@ -4,22 +4,22 @@ import { Link } from 'react-router-dom';
 const CandidateServices: React.FC = () => {
   const categories = [
     {
-      title: "Looking for a job",
-      description: "Find your dream job with us.",
-      image: "https://res.cloudinary.com/dtcf04lfg/image/upload/v1768660072/hr-hiring-recruit-jobhuman-resource-searching-job-business-conceptmagnifier-glass-with-text_74054-1764_hvfk1c.avif",
-      alt: "Find your dream job"
+      title: "Looking to expand your business in Africa",
+      description: "Find your opportunity and partnership with us.",
+      image: "https://res.cloudinary.com/dtcf04lfg/image/upload/v1776963799/Image_fx_42_jijmuv.jpg",
+      alt: "Expand your business"
     },
     {
-      title: "Internship opportunities",
-      description: "Internship opportunities in software & mobile development.",
-      image: "https://res.cloudinary.com/dtcf04lfg/image/upload/v1768660072/66fc0f889e106_jorm98.png",
+      title: "Expansion Opportunities opportunities",
+      description: "Business development & Expansion Opportunities.",
+      image: "https://res.cloudinary.com/dtcf04lfg/image/upload/v1776964021/pexels-rdne-7947838_jxcx7k.jpg",
       alt: "Internship opportunities"
     },
     {
-      title: "Residential property",
-      description: "Residential property solutions and relocation services.",
-      image: "https://res.cloudinary.com/dtcf04lfg/image/upload/v1768660072/property-home-sale-real-estate-social-media-post-banner-template_467913-262_txowae.avif",
-      alt: "Residential property"
+      title: "Market Research",
+      description: "We do market research to find your ideal business location.",
+      image: "https://res.cloudinary.com/dtcf04lfg/image/upload/v1776963681/Image_fx_36_myyxpq.jpg",
+      alt: "Perfect business location"
     }
   ];
 
@@ -36,7 +36,7 @@ const CandidateServices: React.FC = () => {
         <div className="relative mb-[200px] flex flex-col md:flex-row items-center gap-8">
           <div className="w-full md:w-2/3 rounded-xl overflow-hidden shadow-lg">
             <img 
-              src="https://res.cloudinary.com/dtcf04lfg/image/upload/v1768658816/business_black_gfgtd9.jpg" 
+              src="https://res.cloudinary.com/dtcf04lfg/image/upload/v1776963514/Image_fx_50_bvqu7v.jpg" 
               alt="Candidates collaborating" 
               className="w-full h-[300px] md:h-[400px] object-cover"
             />
