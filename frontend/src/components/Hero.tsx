@@ -51,7 +51,7 @@ const Hero: React.FC = () => {
             <Link to="/opportunities">
             <className="bg-white text-black px-10 py-3 rounded-md font-semibold hover:bg-gray-200 transition-colors uppercase text-sm tracking-widest cursor-pointer">
               
-            </>
+            </browse opportunities>
 
             </Link>
 
