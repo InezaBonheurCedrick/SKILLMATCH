@@ -14,7 +14,7 @@ const AboutUs: React.FC = () => {
         <div className="relative mb-24 flex justify-center h-[350px] md:h-[500px]">
           <div className="absolute left-0 top-0 w-[55%] h-[300px] md:h-[400px] z-0">
             <img 
-              src="https://res.cloudinary.com/dtcf04lfg/image/upload/v1778245484/ONE91067.jpg_1_degimw.jpg" 
+              src="https://res.cloudinary.com/dtcf04lfg/image/upload/v1778500321/RPNEW_ynum0z.jpg" 
               alt="Team Meeting" 
               className="w-full h-full object-cover rounded-sm shadow-lg"
             />
