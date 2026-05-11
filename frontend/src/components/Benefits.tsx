@@ -5,7 +5,7 @@ const Benefits: React.FC = () => {
     {
       id: 1,
       number: "",
-      label: "Business deveee",
+      label: "Bu",
       image: "https://hrms.rw/web/image/1086-4a4bd68c/Employee%20Outsourcing.webp"
     },
     {
