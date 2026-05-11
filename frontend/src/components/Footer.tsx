@@ -38,7 +38,7 @@ const Footer: React.FC = () => {
             <div className="space-y-4 mb-8">
               <div className="flex items-center gap-3">
                 <Mail size={18} className="text-white/80" />
-                <a href="mailto:Baratimana.k@gmail.com" className="hover:underline">Kevin@rightpoolstaff.com</a>
+                <a href="mailto:Baratimana.k@gmail.com" className="hover:underline">Kevin.baratimana@rightpoolstaff.com</a>
               </div>
               <div className="flex items-center gap-3">
                 <Phone size={18} className="text-white/80" />
