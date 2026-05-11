@@ -49,10 +49,9 @@ const Hero: React.FC = () => {
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link to="/opportunities">
-            <className="bg-white text-black px-10 py-3 rounded-md font-semibold hover:bg-gray-200 transition-colors uppercase text-sm tracking-widest cursor-pointer">
-              
-            </browse opportunities>
-
+              <button className="bg-white text-black px-10 py-3 rounded-md font-semibold hover:bg-gray-200 transition-colors uppercase text-sm tracking-widest cursor-pointer">
+                Browse Opportunities
+              </button>
             </Link>
 
             <Link to="/contact">

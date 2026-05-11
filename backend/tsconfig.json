@@ -2,7 +2,7 @@
   "compilerOptions": {
     "target": "ES2022",
     "lib": ["ES2022"],
-    "module": "commonjs",
+    "module": "Node16",
     "rootDir": "src",
     "outDir": "dist",
     "strict": true,
@@ -10,7 +10,7 @@
     "types": ["node"],
     "forceConsistentCasingInFileNames": true,
     "skipLibCheck": true,
-    "moduleResolution": "node",
+    "moduleResolution": "node16",
     "resolveJsonModule": true,
     "sourceMap": true
   },

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { 
   MapPin, Briefcase, ArrowLeft, 
@@ -39,13 +39,9 @@ const OpportunityDetails: React.FC = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
-  useEffect(() => {
-    if (id) {
-      fetchOpportunity();
-    }
-  }, [id]);
+  const fetchOpportunity = useCallback(async () => {
+    if (!id) return;
 
-  const fetchOpportunity = async () => {
     try {
       setLoading(true);
       setError(null);
@@ -58,7 +54,13 @@ const OpportunityDetails: React.FC = () => {
     } finally {
       setLoading(false);
     }
-  };
+  }, [id]);
+
+  useEffect(() => {
+    if (id) {
+      fetchOpportunity();
+    }
+  }, [id, fetchOpportunity]);
 
   if (loading) {
     return (
