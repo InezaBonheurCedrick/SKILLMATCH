@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import AdminSidebar from '../components/AdminSidebar';
 import { 
   Search, Filter, Plus, MoreHorizontal, 
@@ -31,6 +31,20 @@ interface Opportunity {
   createdAt: string;
 }
 
+const iconMap = {
+  'Total Opportunities': Briefcase,
+  'Total Applicants': Users,
+  'Active Now': TrendingUp,
+  'Closing Soon': Clock,
+};
+
+const colorMap = {
+  'Total Opportunities': { color: 'text-blue-600', bg: 'bg-blue-50' },
+  'Total Applicants': { color: 'text-emerald-600', bg: 'bg-emerald-50' },
+  'Active Now': { color: 'text-indigo-600', bg: 'bg-indigo-50' },
+  'Closing Soon': { color: 'text-amber-600', bg: 'bg-amber-50' },
+};
+
 const AdminDashboard = () => {
   const [activeMenu, setActiveMenu] = useState<string | null>(null);
   const [stats, setStats] = useState<Stat[]>([]);
@@ -39,27 +53,7 @@ const AdminDashboard = () => {
   const [error, setError] = useState<string | null>(null);
   const [searchQuery, setSearchQuery] = useState('');
 
-  // Icon mapping
-  const iconMap = {
-    'Total Opportunities': Briefcase,
-    'Total Applicants': Users,
-    'Active Now': TrendingUp,
-    'Closing Soon': Clock,
-  };
-
-  // Color mapping
-  const colorMap = {
-    'Total Opportunities': { color: 'text-blue-600', bg: 'bg-blue-50' },
-    'Total Applicants': { color: 'text-emerald-600', bg: 'bg-emerald-50' },
-    'Active Now': { color: 'text-indigo-600', bg: 'bg-indigo-50' },
-    'Closing Soon': { color: 'text-amber-600', bg: 'bg-amber-50' },
-  };
-
-  useEffect(() => {
-    fetchDashboardData();
-  }, []);
-
-  const fetchDashboardData = async () => {
+  const fetchDashboardData = useCallback(async () => {
     try {
       setLoading(true);
       setError(null);
@@ -85,7 +79,11 @@ const AdminDashboard = () => {
     } finally {
       setLoading(false);
     }
-  };
+  }, []);
+
+  useEffect(() => {
+    fetchDashboardData();
+  }, [fetchDashboardData]);
 
   const formatNumber = (num: number): string => {
     return num.toLocaleString();
